@@ -1,4 +1,4 @@
-﻿// 
+﻿// Программа для нахождения из случайного массива, строк в которых количество символов меньше или равно трех
 string [] SpecifStrArray = {"lincol","dif","ar","mur","duncan","rom","in"};
 
 uint NumbersOfCells = 0;
