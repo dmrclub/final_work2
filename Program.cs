@@ -22,4 +22,14 @@ for (int i = 0, j=0; i < SpecifStrArray.Length; i++)
     }
     
 }
+void PrintArray (string[]array)
+{
+    int count = array.Length;
+    for (int i = 0; i < count; i++)
+    {
+        System.Console.Write($"{array[i]}   ");
+    }
 
+}
+PrintArray(ValidStrArray);
+Console.WriteLine();
