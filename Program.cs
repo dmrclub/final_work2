@@ -10,5 +10,16 @@ for (int i = 0; i < SpecifStrArray.Length; i++)
         NumbersOfCells ++;
     }
 }
+string [] ValidStrArray = new string [NumbersOfCells];
 
+for (int i = 0, j=0; i < SpecifStrArray.Length; i++)
+
+{
+    if (SpecifStrArray[i].Length<=3)
+    {
+        ValidStrArray[j] = SpecifStrArray[i];
+        j++;
+    }
+    
+}
 
